@@ -1,4 +1,4 @@
-import clipboardSvg from '../../../assets/Clipboard.svg';
+import clipboardSvg from '../../assets/Clipboard.svg';
 
 import styles from './styles.module.css';
 

@@ -1,0 +1,22 @@
+.wrapper {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  appearance: none;
+  border: solid 2px var(--blue-500);
+}
+
+input[type='checkbox']:checked {
+  background-color: var(--purple-700);
+  padding-top: 1px;
+  padding-left: 4px;
+}
+input[type='checkbox']:checked:after {
+  content: '';
+  display: block;
+  height: 9px;
+  width: 4.5px;
+  border: solid var(--white);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}

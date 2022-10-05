@@ -3,9 +3,3 @@
   flex-direction: column;
   align-items: center;
 }
-
-.wrapperTodo {
-  width: 100%;
-  max-width: 47rem;
-  padding: 0 1rem;
-}
